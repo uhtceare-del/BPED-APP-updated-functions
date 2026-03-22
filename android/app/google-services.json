@@ -1,0 +1,54 @@
+{
+  "project_info": {
+    "project_number": "682638053618",
+    "project_id": "physed-2e306",
+    "storage_bucket": "physed-2e306.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:682638053618:android:f754988cf1d49c5d6d006b",
+        "android_client_info": {
+          "package_name": "com.example.phys_ed"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "682638053618-svd9i74sokc23t5hq4347npfbljh5j14.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.phys_ed",
+            "certificate_hash": "685b74e22c1149a62bc9b17dc352941fddd6d35a"
+          }
+        },
+        {
+          "client_id": "682638053618-h0i5s02l8bg8u8nu4qee768sebe8dc20.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBqSZY-5D5YxBgY1FjO-DGiFRhM4u1WPK8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "682638053618-h0i5s02l8bg8u8nu4qee768sebe8dc20.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "682638053618-u3r8e772djt9olq2umr4ol29r7ofccoo.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.physEd"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,71 @@
+name: phys_ed
+description: "A new Flutter project."
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.10.8
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Firebase
+  firebase_core: ^4.5.0
+  firebase_auth: ^6.2.0
+  cloud_firestore: ^6.1.3
+  firebase_storage: ^13.1.0
+
+  # State Management
+  flutter_riverpod: ^2.3.6
+
+  # Auth
+  google_sign_in: ^7.0.0
+  google_sign_in_web: ^1.1.0
+
+  # Networking & Upload
+  http: ^1.1.0
+  path: ^1.9.0
+
+  # Image & Media
+  image_picker: ^1.2.1
+  cached_network_image: ^3.4.1
+  video_player: ^2.8.2
+  chewie: ^1.7.5
+  just_audio: ^0.9.36
+
+  # PDF
+  syncfusion_flutter_pdfviewer: ^27.2.2
+
+  # File Picker
+  file_picker: ^8.0.0+1
+
+  # Offline Storage & Downloads
+  hive: ^2.2.3
+  hive_flutter: ^1.1.0
+  path_provider: ^2.1.2
+  dio: ^5.4.0
+
+  # Deep linking / file opening
+  open_file: ^3.5.11
+  url_launcher: ^6.3.2
+
+  # UI
+  cupertino_icons: ^1.0.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+  # Hive Code Generation
+  hive_generator: ^2.0.1
+  build_runner: ^2.4.8
+
+  # Testing — in-memory Firestore mock, no Firebase emulator needed
+  fake_cloud_firestore: ^4.0.2+1
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/lnu.png
